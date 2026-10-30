@@ -1,0 +1,85 @@
+---
+const { title = 'VCNTF' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <style is:global>
+      :root { --bg:#fff; --ink:#1a1a1a; --ink-soft:#6b6b6b; --rule:#e2e2e2; --code-bg:#f4f4f4; }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) { --bg:#161616; --ink:#e8e8e8; --ink-soft:#a0a0a0; --rule:#333; --code-bg:#242424; color-scheme:dark; }
+      }
+      :root[data-theme="dark"] { --bg:#161616; --ink:#e8e8e8; --ink-soft:#a0a0a0; --rule:#333; --code-bg:#242424; color-scheme:dark; }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 system-ui,-apple-system,'Segoe UI',sans-serif; -webkit-font-smoothing:antialiased; }
+      a { color:inherit; text-decoration:none; }
+      a:hover { text-decoration:underline; }
+      img { max-width:100%; height:auto; }
+      .wrap { max-width:680px; margin:0 auto; padding:0 20px; }
+      header.site { display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:18px 0 14px; border-bottom:1px solid var(--rule); }
+      header.site .brand { font-weight:700; }
+      header.site .brand:hover { text-decoration:none; }
+      header.site nav { display:flex; align-items:baseline; gap:16px; font-size:15px; color:var(--ink-soft); }
+      .mode { background:none; border:none; padding:0; font:inherit; font-size:15px; color:var(--ink-soft); cursor:pointer; }
+      .mode:hover { color:var(--ink); text-decoration:underline; }
+      .mode::after { content:'Dark'; }
+      @media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .mode::after { content:'Light'; } }
+      html[data-theme="dark"] .mode::after { content:'Light'; }
+      .postrow { padding:18px 0; border-bottom:1px solid var(--rule); }
+      .postrow a:hover { text-decoration:none; }
+      .postrow a:hover h3 { text-decoration:underline; }
+      .postrow h3 { font-size:17px; font-weight:600; margin:0 0 3px; }
+      .postrow .meta { color:var(--ink-soft); font-size:14px; margin-bottom:6px; }
+      .postrow .excerpt { margin:0; color:var(--ink-soft); font-size:15px; }
+      .prose { padding-top:48px; }
+      .prose h1 { font-size:30px; line-height:1.25; margin:8px 0 0; }
+      .prose .meta { color:var(--ink-soft); font-size:15px; margin-bottom:36px; }
+      .prose .body { font-family:Georgia,'Times New Roman',serif; font-size:18px; line-height:1.7; }
+      .prose .body p { margin:0 0 1.1em; }
+      .prose .body h2 { font-size:21px; margin:1.7em 0 .5em; }
+      .prose .body h3 { font-size:18px; margin:1.5em 0 .4em; }
+      .prose .body a { text-decoration:underline; }
+      .prose .body blockquote { margin:0 0 1.1em; padding-left:14px; border-left:2px solid var(--rule); color:var(--ink-soft); }
+      .prose .body code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.88em; background:var(--code-bg); padding:.1em .3em; border-radius:3px; }
+      .prose .body pre { background:var(--code-bg); padding:14px 16px; overflow-x:auto; line-height:1.5; font-size:15px; }
+      .prose .body pre code { background:none; padding:0; font-size:inherit; }
+      .prose .body hr { border:0; border-top:1px solid var(--rule); margin:2em 0; }
+      footer.site { margin:72px 0 48px; padding-top:14px; border-top:1px solid var(--rule); display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; color:var(--ink-soft); font-size:14px; }
+      footer.site a:hover { color:var(--ink); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site">
+        <a href="/" class="brand">VCNTF</a>
+        <nav>
+          <a href="/posts/">Writing</a>
+          <button id="mode" class="mode" aria-label="Toggle dark mode"></button>
+        </nav>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer class="site">
+        <span>© 2025 VCNTF</span>
+        <span>Built with Astro</span>
+      </footer>
+    </div>
+    <script>
+      (function(){
+        var KEY='vcntf-theme', root=document.documentElement;
+        try { var t=localStorage.getItem(KEY); if(t==='dark'||t==='light') root.setAttribute('data-theme',t); } catch(e){}
+        document.getElementById('mode').addEventListener('click', function(){
+          var dark = (root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : '')) === 'dark';
+          var next = dark ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem(KEY, next); } catch(e){}
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+<Base title="VCNTF">
+  <section style="padding:48px 0 0;">
+    <h1 style="font-size:28px;line-height:1.25;margin:0 0 8px;">A COMMUNICATION FROM A VACANT FREQUENCY</h1>
+    <p style="color:var(--ink-soft);margin:0;">Musings on the capital E Economy</p>
+  </section>
+
+  <section style="padding-top:40px;">
+    <h2 style="font-size:15px;font-weight:normal;color:var(--ink-soft);margin:0 0 4px;">Writing</h2>
+    {posts.map((p) => (
+      <article class="postrow">
+        <a href={`/posts/${p.id}/`}>
+          <h3>{p.data.title}</h3>
+          <div class="meta">{p.data.category ?? 'Post'} · {p.data.date.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' })}</div>
+          {p.data.excerpt && <p class="excerpt">{p.data.excerpt}</p>}
+        </a>
+      </article>
+    ))}
+    {posts.length === 0 && <p style="color:var(--ink-soft);">No articles yet. Add a .md file in src/content/posts/.</p>}
+  </section>
+</Base>

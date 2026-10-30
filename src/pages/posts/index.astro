@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+<Base title="Writing — VCNTF">
+  <section style="padding:48px 0 0;">
+    <h1 style="font-size:28px;line-height:1.25;margin:0 0 16px;">Writing</h1>
+    <ul style="list-style:none;padding:0;margin:0;">
+      {posts.map((p) => (
+        <li class="postrow">
+          <a href={`/posts/${p.id}/`}>
+            <h3>{p.data.title}</h3>
+            <div class="meta">{p.data.category ?? 'Post'} · {p.data.date.toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' })}</div>
+            {p.data.excerpt && <p class="excerpt">{p.data.excerpt}</p>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>
