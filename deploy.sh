@@ -2,8 +2,7 @@
 # Deploy vcntf-blog: push code, trigger App Platform build.
 set -euo pipefail
 APP=73a495b5-1bd0-4627-84c9-b00899981228
-cd "$(dirname "$0")/.."
-rm -f deploy.lock
+cd "$(dirname "$0")"
 git push origin main
 doctl apps create-deployment "$APP" --wait
 phase=$(doctl apps list-deployments "$APP" --format Phase --no-header | head -1)
