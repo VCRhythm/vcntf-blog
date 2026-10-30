@@ -20,7 +20,6 @@ static_sites:
   environment_slug: node-js
   build_command: npm run build
   output_dir: /dist
-  github:
+  git:
     branch: main
-    deploy_on_push: true
-    repo: VCRhythm/vcntf-blog
+    repo_clone_url: https://github.com/VCRhythm/vcntf-blog.git
