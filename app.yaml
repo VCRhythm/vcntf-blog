@@ -1,0 +1,26 @@
+name: vcntf-blog
+region: nyc
+features:
+- buildpack-stack=ubuntu-22
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: blog.vcntf.com
+  type: PRIMARY
+ingress:
+  rules:
+  - component:
+      name: vcntf-blog
+    match:
+      path:
+        prefix: /
+static_sites:
+- name: vcntf-blog
+  environment_slug: node-js
+  build_command: npm run build
+  output_dir: /dist
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: VCRhythm/vcntf-blog
