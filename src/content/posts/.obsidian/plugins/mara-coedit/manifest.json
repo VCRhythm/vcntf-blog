@@ -1,0 +1,9 @@
+{
+  "id": "mara-coedit",
+  "name": "Mara co-edit",
+  "version": "0.2.1",
+  "minAppVersion": "1.4.0",
+  "description": "Lets Mara's desktop overlay read the open note and apply her edits live, as one undoable change.",
+  "author": "Tristan Hardy",
+  "isDesktopOnly": true
+}
