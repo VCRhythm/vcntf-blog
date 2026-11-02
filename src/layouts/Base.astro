@@ -6,7 +6,10 @@ const { title = 'VCNTF' } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
+    <title>{title}></title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <style is:global>
       :root { --bg:#fff; --ink:#1a1a1a; --ink-soft:#6b6b6b; --rule:#e2e2e2; --code-bg:#f4f4f4; }
       @media (prefers-color-scheme: dark) {
@@ -65,8 +68,7 @@ const { title = 'VCNTF' } = Astro.props;
         <slot />
       </main>
       <footer class="site">
-        <span>© 2025 VCNTF</span>
-        <span>Built with Astro</span>
+        <span>© 2026 VCNTF</span>
       </footer>
     </div>
     <script>
