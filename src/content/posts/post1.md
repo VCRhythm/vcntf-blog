@@ -10,12 +10,12 @@ Workers have been sensing the same rigged game for well over a century. Some exa
 
 1888\. The matchwomen at Bryant & May who walked out over starvation wages and the phosphorus rotting their jaws.
 
-1968\. The sewing machinists at Ford Dagenham downed tools after being graded "unskilled" for work the plant couldn't run without. The Equal Pay Act followed two years later.
+1968\. The sewing machinists at Ford Dagenham went on strike after being graded "unskilled" for work the plant couldn't run without. The Equal Pay Act followed two years later.
 
-1971\. The Upper Clyde shipbuilders refused to strike when told the yards would close: "We are not going to strike. We are taking over the yards," says Jimmy Reid, who also observed that the rat race is for rats.
+1971\. The Upper Clyde shipbuilders took over the building when told the yards would close: "We are not going to strike. We are taking over the yards."
 
-1976\. Shop stewards at Lucas Aerospace, facing redundancy, draw up designs for kidney dialysis machines and heat pumps instead of weapons. The company never builds them, but the plan survives as proof that workers can design the economy they'd rather live in.
+1976\. Shop stewards at Lucas Aerospace, facing layoffs, poll their own workforce and turn 150 product ideas into a plan for what they could build instead of weapons: kidney dialysis machines, heat pumps, wind turbines, hybrid power packs. Management shelves it, the company dies anyway, and the plan survives as proof that workers can design the economy they'd rather live in. It's still the template cited for arms conversion and a green transition.
 
-2022\. NHS nurses strike for the first time in the Royal College of Nursing's hundred-year history, Amazon workers on Staten Island vote in the first Amazon union in America, Starbucks baristas win union elections one café at a time and Mick Lynch becomes a folk hero by calmly telling every interviewer in Britain that the country can afford better. Stevenson was building the same argument on YouTube, with charts instead of a picket line.
+2022\. Coming out of the pandemic, workers start to feel that pull back to the grind and try to resist: NHS nurses strike for the first time in the Royal College of Nursing's hundred-year history, Amazon workers on Staten Island vote in the first Amazon union in America, and Starbucks baristas win union elections one café at a time
 
-They felt the wrong first and worked out the arguments after.
+All felt *something* was wrong and show us different ways for getting the f out.
