@@ -2,7 +2,7 @@
 title: At the Precipice of Interest, pt. 1
 date: 2026-11-03
 category: Economics
-excerpt: Inflationary Signals from Producers
+excerpt: Inflationary Signals from this week's ISM Report
 words: "400"
 ---
 **This week**: ISM released the manufacturing index (yesterday); Labor department releasing September job openings (today) and October jobs report (Friday); Bank of England decides on UK interest rates (Thursday).

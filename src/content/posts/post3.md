@@ -1,8 +1,8 @@
 ---
-title: "Why I Write about Economics through Double Deep Mechanisms"
+title: Double Deep Economics
 date: 2026-11-02
-category: "Economics"
-excerpt: "Moving beyond scoreboards and stats"
+category: Economics
+excerpt: Moving beyond scoreboards and stats
 ---
 
 I get sick of seeing a rise and fall explained using the same narrative. I get sick of seeing history waived off. I feel sick.
