@@ -4,7 +4,6 @@ date: 2026-11-02
 category: Economics
 excerpt: Moving beyond scoreboards and stats
 ---
-
 I get sick of seeing a rise and fall explained using the same narrative. I get sick of seeing history waived off. I feel sick.
 
 **This week**: ISM releases the manufacturing index; Apple, AMD, and Palantir release earnings; Labor department releasing September job openings and October jobs report; Bank of England decides on UK interest rates.
