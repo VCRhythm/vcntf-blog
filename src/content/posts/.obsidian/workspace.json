@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post2.md",
+                "file": "post5-currency-can-be-a-subsidy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "post2"
+              "title": "post5-currency-can-be-a-subsidy"
             }
           }
         ]
@@ -187,9 +187,15 @@
   },
   "active": "b378adba6146f471",
   "lastOpenFiles": [
+    "postx-nixon.md",
+    "post5-currency-can-be-a-subsidy.md",
+    "post6-interest-is-the-price-of-borrowing.md",
     "post1.md",
+    "post2.md",
     "post3.md",
     "post4.md",
-    "post2.md"
+    "post7-productivity-does-not-tell-you-who-gets-richer.md",
+    "post8-the-ai-buildout-is-bidding-for-the-future.md",
+    "zzz-draft-test.md"
   ]
 }
