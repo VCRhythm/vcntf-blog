@@ -12,4 +12,18 @@ const posts = defineCollection({
   }),
 });
 
-export const collections = { posts };
+const games = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/games' }),
+  schema: z.object({
+    title: z.string(),
+    tagline: z.string(),
+    platform: z.string(),
+    status: z.string(),
+    started: z.coerce.date(),
+    order: z.number().default(100),
+    link: z.string().url().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { posts, games };

@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const games = (await getCollection('games', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+---
+<Base title="Games — VCNTF">
+  <section style="padding:48px 0 0;">
+    <h1 style="font-size:28px;line-height:1.25;margin:0 0 16px;">Games</h1>
+    <ul style="list-style:none;padding:0;margin:0;">
+      {games.map((g) => (
+        <li class="postrow">
+          <a href={`/games/${g.id}/`}>
+            <h3>{g.data.title}</h3>
+            <div class="meta">{g.data.platform} · {g.data.status}</div>
+            <p class="excerpt">{g.data.tagline}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,31 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games', ({ data }) => !data.draft);
+  return games.map((g) => ({ params: { slug: g.id }, props: { game: g } }));
+}
+
+const { game } = Astro.props;
+const { Content } = await render(game);
+const started = game.data.started.getFullYear();
+const link = game.data.link ? new URL(game.data.link) : null;
+const linkLabel = link?.host.endsWith('roblox.com') ? 'Play on Roblox' : link?.host;
+---
+<Base title={`${game.data.title} — VCNTF`}>
+  <article class="prose">
+    <div class="meta">{game.data.platform} · {game.data.status} · Since {started}</div>
+    <h1>{game.data.title}</h1>
+    <p style="font-size:19px;color:var(--ink-soft);margin:-12px 0 32px;">{game.data.tagline}</p>
+    <div class="body">
+      <Content />
+    </div>
+    {game.data.link && (
+      <p style="margin-top:32px;"><a href={game.data.link} style="text-decoration:underline;">{linkLabel} →</a></p>
+    )}
+  </article>
+  <nav class="postnav" aria-label="Games navigation">
+    <a class="prev" href="/games/"><span class="dir">← All games</span></a>
+  </nav>
+</Base>
