@@ -1,14 +1,18 @@
 ---
 import { render } from 'astro:content';
-import { getPosts } from '../../lib/posts';
+import { getSortedPosts } from '../../lib/posts';
 import Base from '../../layouts/Base.astro';
 
 export async function getStaticPaths() {
-  const posts = await getPosts();
-  return posts.map((p) => ({ params: { slug: p.id }, props: { post: p } }));
+  // Sorted newest-first: "previous" is the older entry, "next" is the newer one.
+  const posts = await getSortedPosts();
+  return posts.map((p, i) => ({
+    params: { slug: p.id },
+    props: { post: p, prev: posts[i + 1] ?? null, next: posts[i - 1] ?? null },
+  }));
 }
 
-const { post } = Astro.props;
+const { post, prev, next } = Astro.props;
 const { Content } = await render(post);
 ---
 <Base title={`${post.data.title} — VCNTF`}>
@@ -19,4 +23,18 @@ const { Content } = await render(post);
       <Content />
     </div>
   </article>
+  <nav class="postnav" aria-label="Post navigation">
+    {prev ? (
+      <a class="prev" href={`/posts/${prev.id}/`} rel="prev">
+        <span class="dir">← Previous</span>
+        <span class="ttl">{prev.data.title}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a class="next" href={`/posts/${next.id}/`} rel="next">
+        <span class="dir">Next →</span>
+        <span class="ttl">{next.data.title}</span>
+      </a>
+    ) : <span />}
+  </nav>
 </Base>
