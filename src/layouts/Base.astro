@@ -23,7 +23,7 @@ const { title = 'VCNTF' } = Astro.props;
       a:hover { text-decoration:underline; }
       img { max-width:100%; height:auto; }
       .wrap { max-width:680px; margin:0 auto; padding:0 20px; }
-      header.site { display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:18px 0 14px; border-bottom:1px solid var(--rule); }
+      header.site { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:12px 16px; padding:18px 0 14px; border-bottom:1px solid var(--rule); }
       header.site .brand { font-weight:700; }
       header.site .brand:hover { text-decoration:none; }
       header.site nav { display:flex; align-items:baseline; gap:16px; font-size:15px; color:var(--ink-soft); }
@@ -66,9 +66,10 @@ const { title = 'VCNTF' } = Astro.props;
     <div class="wrap">
       <header class="site">
         <a href="/" class="brand">VCNTF</a>
-        <nav>
+        <nav aria-label="Main navigation">
           <a href="/posts/">Writing</a>
           <a href="/games/">Games</a>
+          <a href="/consulting/">Consulting</a>
           <button id="mode" class="mode" aria-label="Toggle dark mode"></button>
         </nav>
       </header>

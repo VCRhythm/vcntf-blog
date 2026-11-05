@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Consulting — VCNTF">
+  <section class="consulting">
+    <h1>Consulting</h1>
+    <p class="intro">I help studios and creators build game economies, improve retention, and make sense of player behavior.</p>
+
+    <section class="project" aria-labelledby="payout-strategy">
+      <h2 id="payout-strategy"><a href="https://payoutstrategy.gg/">Payout Strategy Group</a></h2>
+      <p>I work with Fortnite Creative and UEFN teams on economy design, engagement payouts, and in-island transactions. The work connects player data to decisions about progression, session loops, and what players spend money on.</p>
+      <a class="project-link" href="https://payoutstrategy.gg/">Visit payoutstrategy.gg →</a>
+    </section>
+
+    <section class="project" aria-labelledby="island-pulse">
+      <h2 id="island-pulse">Island Pulse</h2>
+      <p>I'm building an Android app for tracking what people are playing across Fortnite islands and Roblox experiences. It brings together Fortnite rankings, live Roblox player counts, and the islands gaining the most players.</p>
+      <p>Look up an individual Fortnite island to follow its player-count history and day-one and day-seven retention. It's a tool for understanding the wider ecosystem alongside the consulting work.</p>
+    </section>
+
+    <p class="contact">Have a game or an economy you're working on? <a href="https://payoutstrategy.gg/#contact">Get in touch →</a></p>
+  </section>
+</Base>
+
+<style>
+  .consulting { padding-top:48px; }
+  h1 { font-size:28px; line-height:1.25; margin:0 0 16px; }
+  .intro { margin:0 0 32px; color:var(--ink-soft); }
+  .project { padding:24px 0; border-bottom:1px solid var(--rule); }
+  h2 { font-size:20px; line-height:1.35; margin:0 0 12px; }
+  .project p { margin:0 0 16px; }
+  .project p:last-child { margin-bottom:0; }
+  .project-link { font-size:15px; }
+  .contact { margin:32px 0 0; }
+  .contact a { text-decoration:underline; }
+</style>
