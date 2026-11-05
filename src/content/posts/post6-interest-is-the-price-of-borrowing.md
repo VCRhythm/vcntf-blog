@@ -1,5 +1,5 @@
 ---
-title: Interest Is the Price of Borrowing
+title: At the Precipice of Interest, pt. 7
 date: 2026-11-05
 category: Economics
 excerpt: Thursday's Bank of England decision is not just a policy headline. It is a change in the price of borrowed money.

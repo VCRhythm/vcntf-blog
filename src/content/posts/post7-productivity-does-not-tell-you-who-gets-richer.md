@@ -5,6 +5,23 @@ category: Economics
 excerpt: A growing economy can still leave most people behind. Friday's jobs report is a test of who captures the gains.
 draft: true
 ---
+**This week**: ISM released the manufacturing index (Monday); Labor department releasing September job openings (Tuesday), weekly jobless claims (today) and October jobs report (Friday); Bank of England decided on UK interest rates (today).
+
+**Weekly jobless claims**: Initial claims **fell 6,000 to 189,000** for the week ended October 31, the lowest reading in 57 years; the four-week average dipped to 194,750, and continuing claims sat just under 1.7 million.
+
+* Headlines will read this as a resilient labor market — the ISM report says otherwise: with hiring frozen, claims only count layoffs, and factories are hoarding workers the same way they hoarded materials
+
+* Worker productivity surged in the same release — more output from fewer hours, the supply-side squeeze made visible
+
+**Bank of England**: MPC raised Bank Rate a quarter point, to **4%**.
+
+That is the cliff from part 1, playing out live: the Bank hiked into its own energy shock instead of keeping a cut in reserve to cushion the slowdown.
+
+The full read on today's decision — the vote, the gilt move, who pays first — is today's *Interest Is the Price of Borrowing*; here it only matters as the backdrop to the labor market.
+
+**WHAT TO WATCH: Payrolls in Friday's October jobs report**
+If the hiring freeze holds, payrolls should flatten while layoffs stay at their floor.
+
 
 Friday’s jobs report will tempt everyone into the same shorthand:
 
