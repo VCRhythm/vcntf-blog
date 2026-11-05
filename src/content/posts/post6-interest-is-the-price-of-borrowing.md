@@ -3,159 +3,116 @@ title: Interest Is the Price of Borrowing
 date: 2026-11-05
 category: Economics
 excerpt: Thursday's Bank of England decision is not just a policy headline. It is a change in the price of borrowed money.
-draft: true
+draft: false
+words: "1100"
 ---
-Today, the Bank of England is expected to raise its policy rate by a quarter point, from **3.75% to 4.00%**.
+**This week**: ISM released the manufacturing index (Monday). The Labor Department released September job openings (Tuesday) and will release the October jobs report (Friday). **Bank of England decided on UK interest rates (Today)**
 
-That sounds technical. Strip the institutional language away, and the event is much simpler: the price of borrowed money is going up.
+Today, as expected, the Bank of England raised its policy rate from 3.75% to 4.00%, mirroring a recent increase by the US Fed in September. The vote was firmer than expected, with only one dissent and no one voting to hold rates.
 
-Interest is not a mystical force. It is rent. If I want to use someone else's savings for a year, the interest rate is the rent I pay for using them. A central-bank rate hike is a decision to make that rent more expensive.
+The price of borrowed money in the UK has gone up. Following yesterday's discussion on who pays for monetary decisions, let's talk about who is paying for this one.
+## What an interest rate decision *is*
 
-That does not mean every borrowing cost rises by exactly 0.25 percentage points at exactly the same moment. But it does mean the whole system has to reprice.
+Start with the basic market:
 
-## The mechanism
+- Some people have savings they do not need immediately
 
-Start with the basic market.
+- Other people want to spend or invest now and pay later
 
-- Some people have savings they do not need immediately.
-- Other people want to spend or invest now and pay later.
-- The interest rate is the price where the two sides meet.
+When the Bank of England raises its policy rate, it moves the shortest, safest end of that market first: overnight money, which now becomes more expensive.
 
-When the Bank of England raises its policy rate, it moves the shortest, safest end of that market first. Overnight money becomes more expensive. Banks, mortgage lenders, corporate borrowers, and investors then have to reconsider every rate further out the curve.
-
-A rate hike is therefore not one price change. It is a pressure change.
-
-It pressures:
+The overnight rate pressures:
 
 - floating-rate mortgages
-- revolving credit
-- bank funding costs
+
+- revolving credit on credit cards and overdrafts
+
 - corporate borrowing
+
 - leveraged investment positions
-- the discount rates used to value future cash flows
-- and the affordability of any project that needs money before it earns money
 
-Take a simple mortgage example. If someone has a **£200,000** floating-rate mortgage and the relevant borrowing rate rises by **0.25 percentage points**, the annual interest burden rises by about **£500** before any change in the loan balance.
+For example, if someone has a £200,000 floating-rate mortgage and the relevant borrowing rate rises by 0.25 percentage points, the annual interest burden for that person rises by about £500 and takes effect on their very next payment.
 
-That is not the whole mortgage market. Many borrowers are on fixed rates. Some banks pass the change through slowly. Some borrowers refinance. Some households cut spending elsewhere. But the mechanism is still there: a higher price for borrowed money squeezes someone's budget.
+## Using interest rates to look into the future
 
-## The market price is a forecast
-
-Here is the part people often miss. Interest rates do not only describe the present. They also contain guesses about the future.
-
-Short-rate futures make this unusually clear. Many are quoted as:
+Traders use interest rates to guess the expected value of future money. The prices of short-term interest rate futures are quoted as:
 
 > **100 minus the expected interest rate**
 
-So a futures price of **98.75** means the market is saying, roughly, “we expect the relevant rate to be **1.25%**.” The quote is not a number sitting next to a forecast. The quote is the forecast.
+So a futures price of 98.75 means the market is saying, roughly, “we expect the relevant rate to be 1.25% when the contract settles." 
 
-That mechanic is why Gary Stevenson’s old trading story is useful. After 2008, the market kept pricing a return to higher rates. Stevenson’s bet was not that rates would fall dramatically. His bet was that they would **not rise** while other people were still paying prices that assumed they would.
+Gary Stevenson (author of *The Trading Game*) made a bet on future interest rates to make millions for his employer. After the Bank of England slashed interest rates from 5% to 0.5% over 2008 and 2009, the market assumed a return to higher ("normal") rates would follow. Stevenson’s bet was that rates were never going to rise while inequality continued to increase (which he was right about until 2022).
 
-A stylized version:
+An example:
 
-- The market prices a future rate at **1.25%**, so the futures contract trades at **98.75**.
-- The actual rate later comes in at **0.50%**.
-- The contract settles near **99.50**.
-- The buyer at 98.75 makes the difference.
+- The market prices a future rate at 1.25%, so the futures contract trades at 98.75
 
-The profit came from the gap between forecast and fact.
+- The actual rate later comes in at 0.50%, and the contract settles at 100 - 0.50 = 99.50
 
-That trade worked in a particular regime. After the financial crisis, households were overextended, demand for borrowing was weak, and the price of money stayed pinned near the floor. The market kept expecting “normal” rates to return. For years, they did not.
+- The buyer makes 99.50 - 98.75 = 0.75 points off the trade
+
+That trade worked in the particular regime that followed the 2008 financial crisis, when households were overextended and demand for borrowing was weak. The market kept expecting “normal” rates to return. For years, they did not.
 
 ## What changed
 
-The regime changed.
+The regime changed in 2022. Not because inequality suddenly improved, but because inflation has returned.
 
-Now the pressure is coming from the other side. Inflation has returned. Governments are borrowing heavily. AI infrastructure and other capital-intensive projects are demanding savings as well. The question is no longer only “will weak demand keep rates low?” It is also “who wants capital, and what are they willing to pay for it?”
+Governments are borrowing heavily, and AI infrastructure and other capital-intensive projects are demanding enormous capital investments. While Gary's premise still holds, it began to break once inequality passed an unforeseen point of no return.
 
-That is why a modern rate hike means something different from a post-2008 rate hike.
+Weak demand (household spending) had kept rates low for more than a decade. But now, the top of the curve (AI infrastructure) demands capital and is willing to pay for it driving inflation to the point where governments were forced to act.
 
-In 2010, the live question was whether the economy could generate enough demand to justify higher rates.
+## Who will pay?
 
-In 2026, the question is broader:
+As discussed in yesterday's writing, every monetary policy has winners and losers. Every transfer has to be paid for somewhere. 
 
-- How much capital is being demanded?
-- How much inflation is the central bank willing to tolerate?
-- How much fiscal borrowing is competing for the same savings?
-- How much debt-service pressure can households and firms absorb?
-- And how credible is the promise to bring inflation back to target?
+As you might've guessed, this one will hurt those that are already stretched. Interestingly, that means households *and* the firms seeking enormous amounts of money to build out for future profits.
 
-Thursday’s expected Bank of England move is therefore not merely “the Bank is being hawkish.” It is a decision to defend inflation credibility by making borrowing more expensive, even while parts of the economy are fragile.
+**Borrowers feel the squeeze first**
 
-## Who gains, who loses, and where the pressure goes
+- Households with floating-rate debt face higher payments, often in their very next payments due
 
-Every interest-rate decision has a distribution.
+- Firms that rely on revolving credit face higher running costs
 
-**Borrowers feel the squeeze first.**
+- Highly leveraged investors find financing more expensive
 
-- Households with floating-rate debt face higher payments.
-- Firms that rely on revolving credit face higher running costs.
-- Highly leveraged investors find financing more expensive.
-- Developers and capital-intensive projects face higher hurdle rates.
+- Developers and capital-intensive projects face higher hurdle rates
 
-**Savers and lenders may benefit.**
+When the interest rate rises, the discount rate rises along with it, meaning future cash flows are worth less today. A company promising profits in ten years is more sensitive to that change than a business earning cash now.
 
-- Cash earns more.
-- Banks can earn more on the spread between loans and deposits, at least until deposit costs catch up.
-- Investors in short-term instruments receive higher returns.
+**Savers and lenders *may* benefit**
 
-**Asset prices feel it indirectly.**
+- Cash earns more and savings rates often increase while interest rates stay high
 
-When the discount rate rises, future cash flows are worth less today. A company promising profits in ten years is more sensitive to that change than a business earning cash now. The same applies to long-duration bonds and highly valued growth equities.
+- Investors in short-term instruments receive higher returns
+
+- In the short term, banks can earn more on the spread between loans and deposits
 
 The important point is that the policy rate does not distribute its effects evenly. It finds whoever has to borrow, whoever has to refinance, and whoever depends on the price of future money.
 
-## The fragile assumption
+## Why raise rates at all? INFLATION
 
-The policy story assumes that higher rates reduce inflation pressure without breaking the economy.
+With inflation rising around the globe (see Tuesday's post on the latest ISM data release for US stats), the default assumption is that central banks will adopt higher rates to reduce inflationary pressure.
 
-That is a delicate claim.
+For that to work, several things need to hold:
 
-For the mechanism to work, several things need to hold:
+- banks and lenders pass the rate change through to borrowing costs (e.g., mortgages, overdrafts, loans, credit cards), which they might not do in a highly competitive banking industry or if too many customers are locked into longer term contracts
 
-- banks and lenders pass the rate change through to borrowing costs
-- borrowers are not already so fragile that the hike causes unnecessary defaults
-- inflation is sensitive to interest rates, rather than driven mostly by energy, tariffs, or supply bottlenecks
-- expectations remain anchored
-- the government’s own borrowing plans do not offset the tightening
+- borrowers are not already so fragile that the hike causes needless defaults
+
+- inflation is actually sensitive to interest rates, rather than being driven by energy, tariffs, or supply bottlenecks (again, read Tuesday's post...)
+
+- the government’s own borrowing plans do not offset the tightening by injecting more money into the economy (say, borrowing to cap energy bills)
+
 - global demand for capital does not keep pushing longer-term rates higher regardless of the central bank
 
-Break any of those, and the result changes. A rate hike can become a household squeeze without much disinflation. It can damage credit demand while leaving the underlying price pressure intact. Or it can be absorbed so slowly that the policy move looks more symbolic than binding.
+Break any of these, and the impact on inflation is neutered. A rate hike can become a household squeeze without much disinflation. It can damage credit demand while leaving the underlying price pressure intact.
 
-## The data gap
+## What Today's Decision answered
 
-We will know the policy rate on Thursday. We will not immediately know what the rate change means.
+With this rate hike already well expected and well priced in (in theory), the three key components of the release: 
 
-The real questions come after the announcement:
+1. **The vote split was firmer than the polls:** The MPC voted 8-1 to raise, and the lone dissent wanted a bigger move, to 4.25%. Economists expected 7-2 with two members preferring to hold. December is now priced as a likely second hike. The guidance given called this a "precautionary, risk-management hike," but also warned of another hike if the US-Iran war continues.
 
-- Was the vote split, and what does that say about the committee’s conviction?
-- Does the guidance imply more hikes, a pause, or a peak?
-- Do gilt yields fall because the market believes the Bank, or rise because the move looks insufficient?
-- Does sterling strengthen, weaken, or barely react?
-- Do mortgage lenders raise rates quickly?
-- Do banks tighten credit standards?
-- Do firms cut investment before consumer demand slows?
+2. **Oil shocks now drive further decisions:** Gilt yields rose after the decision, and now UK benchmarks sit near their highest levels since the late 1990s, which means the government pays more to refinance. As the pound gets weaker against the dollar, any further oil shock will hit even harder.
 
-The headline rate is one observable number. The mechanism lives in the reactions.
-
-## What to watch on Thursday
-
-The most important number is not necessarily the quarter-point hike. If the move is fully expected, the market will focus on what comes next.
-
-Watch:
-
-1. **The vote split.** A narrow decision signals reluctance. A unanimous decision signals more conviction.
-2. **The guidance.** Does the Bank sound like it is nearing a peak, or preparing for more increases?
-3. **Gilt yields.** A hike that fails to calm the bond market may look insufficient.
-4. **Sterling.** Currency moves show whether investors believe the Bank is protecting inflation credibility.
-5. **Bank lending rates.** The policy rate only matters if it reaches actual borrowing.
-
-## One idea to carry away
-
-Interest is the price of borrowing. A rate hike is not an abstract “tightening.” It is a repricing of who can afford to spend before they have earned, invest before they have revenue, and carry debt while the world changes.
-
-So when the Bank of England moves rates, do not stop at “rates went up.”
-
-Ask the series question:
-
-**Who has to pay more, who gains, and what assumption breaks first?**
+3. **Households get hurt first:** Mortgages reprice straight away, so floating-rate households pay this quarter-point hike at their next payment. Business loans and fixed-rate deals had already priced in this hike.

@@ -114,6 +114,8 @@ Wages depend on:
 
 Productivity creates the surplus. Those other forces decide who keeps it.
 
+Policy even moves one of those forces on purpose. On Thursday, a day before Friday's report, the Bank of England raised Bank Rate from 3.75% to 4% — its first increase in over three years. That is the "hot wages = inflation risk" shorthand turned into operating instructions: cool demand until hiring slows and workers lose leverage. Rates set the temperature of the economy. They say nothing about who owns the upside.
+
 ## The data gap
 
 A monthly jobs report cannot answer the distribution question by itself.

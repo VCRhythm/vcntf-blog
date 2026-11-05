@@ -33,7 +33,9 @@ But, *Production* is starting to outpace new orders a bit, and manufacturers are
 * *Prices Index* sits at 75.2, meaning factories continue to pay more for inputs each month
 * *Producer Sentiment* worsened for the 3rd straight month to 66% negative with pricing volatility in 62% of negative comments
 
-If this were demand-driven strength driving production and prices, we'd see hiring accelerating alongside production instead of cooling. Instead, we see a slow down of deliveries for 11 straight months. We're seeing the inflationary mix of steady demand with a supply side struggling to keep up each month. 
+If this were demand-driven strength driving production and prices, we'd see hiring accelerating alongside production instead of cooling. Today's JOLTS also fits that pattern: openings didn't change from 7.5 million, while the quits rate rose to 2.1%, which were above 2% for the first time since June 2025. 
+
+Lowering employment combined with a slow down of deliveries for 11 straight months leads to inflationary mix of steady demand with a supply side struggling to keep up each month. 
 
 That sets up the cliff: when the backlog finally runs out, production falls back to the pace of orders, which would otherwise imply a central bank rate cut. But with inflation running as high as it is, the Fed will have no room to cut rates to cushion the slowdown.
 
