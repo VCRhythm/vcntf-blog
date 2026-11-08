@@ -5,7 +5,8 @@ category: Economics
 excerpt: AI is not only a technology story. It is a capital-demand story that changes who can afford to build.
 draft: true
 ---
-
+![[Pasted image 20261106100800.png]]
+Momentum stocks continue to take a dive after a grisly October. The peaks of June and September are now under 20%+.
 The AI economy is often described as if the hard part were the software.
 
 But the more expensive part may be the physical world underneath it:
