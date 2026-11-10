@@ -16,4 +16,6 @@ A recap of last week's releases, which continue to emphasize the impact of tight
 
 Output is up, hiring concentrated in white collar sectors which will only keep demand running hot, and supply continues to tighten.
 
-The macroeconomic factor to watch now, and the one that could sway the Fed's decision to hike or hold, is whether the US stock market recovers from last week's tech-led fall. A recovering market would tell the Fed that demand is still running hot — the wealth effect keeping spending ahead of constrained supply while a falling one tightens financial conditions on its own and does some of the Fed's cooling for it.
+The macroeconomic factors to watch now that could sway the Fed's decision to hike:
+* Whether the US stock market recovers from last week's tech-led fall. A recovering market would tell the Fed that demand is still running hot — the wealth effect keeping spending ahead of constrained supply while a falling one tightens financial conditions on its own and does some of the Fed's cooling for it.
+* October CPI (Tuesday)and PPI (Friday), which will be the Fed's first hard read on whether prices are being affected by the supply squeeze

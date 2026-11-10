@@ -5,55 +5,6 @@ category: Economics
 excerpt: A growing economy can still leave most people behind.
 draft: true
 ---
-A recap of last week's releases, which continue to emphasize the impact of tightening supply conditions
-
-* ISM stats indicated an inflationary mix of increased production for now to keep up with demand, but tightening supply conditions and low manufacturing employment that could lead to demand outstripping supply imminently
-
-* The Bank of England follows the Fed's September rate hikes with hikes of their own, and indicated another rate increase may come in December if supply constraints (specifically oil) were not relieved by then
-
-* October's US Jobs report showed added jobs *tripling* against forecasts so at least labor is taking some of the share, at least in the short term. ISM indicated that employment in manufacturing was slowing, and that was echoed by the Jobs report which primarily showed hiring in business and professional services
-
-
-
-**Outline**
-
-1. **This week's backdrop** — jobless claims at a 57-year low and the Bank of England hiking to 4%: the stage Friday's report lands on
-2. **The mechanism** — a two-worker chair shop: productivity makes a surplus, distribution decides who keeps it
-3. **Why the jobs report matters** — what Friday's numbers can and can't show, and the real test: output growing while labor demand doesn't
-4. **Labor's slice has been shrinking** — 58% of gross domestic income in 1980 to 51% now; paychecks vs. homes vs. stocks
-5. **What productivity actually measures** — output per hour, which can rise even when machines replace people
-6. **Why wages do not automatically follow productivity** — bargaining power and ownership decide; the BoE hike is the shorthand turned into policy
-7. **The data gap** — why one jobs report can't answer the distribution question alone
-8. **What would change my mind?** — the evidence that would push me toward the optimistic or the pessimistic story
-9. **One idea to carry away** — productivity tells us what the economy can do; distribution tells us who gets it
-
-**This week**: 
-* ISM released the manufacturing index (Monday) indicating demand outpacing supply
-* Bank of England raised UK interest rates as expected (yesterday).
-* Labor department releasing September job openings (Tuesday), weekly jobless claims (Thursday) and October jobs report (Today)
-
-**Weekly jobless claims**: Initial claims fell 6,000 to 189,000 for the week ended October 31, the lowest reading in 57 years; the four-week average dipped to 194,750, and continuing claims sat just under 1.7 million.
-
-* Headlines will read this as a resilient labor market — the ISM report from Monday says otherwise: with hiring frozen, claims only count layoffs, and factories are hoarding workers the same way they hoarded materials
-
-* Worker productivity surged in the same release — more output from fewer hours, the supply-side squeeze made visible
-
-**WHAT HAPPENED: Payrolls in Friday's October jobs report**
-The prediction was: if the hiring freeze holds, payrolls flatten while layoffs stay at their floor. Half right. Layoffs stayed near the floor — initial claims at 189,000, continuing claims just under 1.7 million — but the freeze did not hold: payrolls jumped to 165,000, and manufacturing added 19,000, which sits awkwardly with Monday's frozen-hiring read.
-
-October's jobs report beat expectations: payrolls rose 165,000 against forecasts near 60,000 — nearly triple — and August and September were revised up by 84,000 combined. Unemployment slipped to 4.1%, and hourly pay rose 0.4% on the month. Professional and business services led hiring, adding 70,000 jobs.
-
-Friday’s jobs report will tempt everyone into the same shorthand:
-
-- strong payrolls = good economy
-- weak payrolls = bad economy
-- hot wages = inflation risk
-- soft wages = weak bargaining power
-
-All of that is useful. But it still misses the more important question: **who actually receives the gains when the economy becomes more productive?**
-
-Productivity is not a morality tale. It is an accounting fact: more output for the same input. The interesting question is not whether productivity rises. It is what happens to the extra output.
-
 ## The mechanism
 
 Start with the simple version.

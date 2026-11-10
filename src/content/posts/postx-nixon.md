@@ -8,6 +8,8 @@ words:
 ---
 **This week**: ISM released the manufacturing index (Tuesday). Labor department released September job openings (yesterday) and will release the October jobs report (Friday); Bank of England decides on UK interest rates (Thursday)
 
+## 
+
 After World War II, Japan kept the yen fixed at **360 yen per dollar**. This is a commitment by the government to trade dollars for yen at 360 each and every day no matter what happens in the market. That changed the foreign price of Japanese goods relative to equivalent goods abroad.
 
 Suppose a Japanese manufacturer produces something for **36,000 yen**. At 360 yen/dollar, the equivalent foreign price is $100.
