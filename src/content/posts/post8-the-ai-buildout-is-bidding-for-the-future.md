@@ -30,9 +30,9 @@ The Federal Reserve's target rate does not set any these yields directly. Bond y
 
 But AI spend is not the only reason money is becoming more valuable. Governments are spending more on energy and defense, which leads to widening deficits, all while inflation remains above target due to demand outpacing supply. 
 
-All of which has led to signs that policy will continue to move: the Fed raised in September, held at 3.75% to 4% in October over two hawkish dissents. But a third, Governor Christopher Waller, has now since said he would back a quarter-point hike in December and more if inflation comes in hot. Inflation looks to be coming in hot this week-- watch the CPI and PPI.
-
 If lending rates are being pushed by expected policy as well as by borrowers competing for savings, the two are hard to separate. The AI buildout lifts real rates through demand for capital while governments spending more on energy and defense lift inflation. 
+
+All of which has led to signs that policy will continue to move: the Fed raised in September, held at 3.75% to 4% in October over two hawkish dissents. But a third, Governor Christopher Waller, has now since said he would back a quarter-point hike in December and more if inflation comes in hot. That has already started to show: CPI came in at 0.4% for the month, a tenth above the 0.3% consensus, with PPI due later this week.
 
 The next question is whether that spread keeps widening if the Fed moves in December.
 
