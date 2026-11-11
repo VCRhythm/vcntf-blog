@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "71e4ca8f5eed8607",
+        "id": "78f7daa07a4f7e76",
         "type": "tabs",
         "children": [
           {
-            "id": "c67a14de6f6d39a2",
+            "id": "23327ff06279978d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post8-the-ai-buildout-is-bidding-for-the-future.md",
+                "file": "leaving-england.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "post8-the-ai-buildout-is-bidding-for-the-future"
+              "title": "leaving-england"
             }
           }
         ]
@@ -185,20 +185,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "c67a14de6f6d39a2",
+  "active": "23327ff06279978d",
   "lastOpenFiles": [
-    "post8-the-ai-buildout-is-bidding-for-the-future.md",
+    "post9-what-if-china-leaves-the-dollar 1.md",
     "postx-nixon.md",
+    "post8-the-ai-buildout-is-bidding-for-the-future.md",
     "post7-productivity-does-not-tell-you-who-gets-richer 1.md",
-    "post6-interest-is-the-price-of-borrowing.md",
     "post7-productivity-does-not-tell-you-who-gets-richer.md",
+    "post6-interest-is-the-price-of-borrowing.md",
+    "post5-currency-can-be-a-subsidy.md",
+    "leaving-england.md",
+    "2026-11-11.md",
+    "Pasted image 20261106100800.png",
+    "nouriel.md",
+    "Untitled.md",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.72d0c4171195",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.d953bc7dc64c",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.c9f96804bc0b",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.c35bb62ae7ab",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.4c39db54f93a",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.3242d307d4ce",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.098061314d8b",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.69ae50602377",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.e3ca6233f865",
+    "post9-what-if-china-leaves-the-dollar.md.tmp.52590.9dfa4e8cf5d7",
+    "Pasted image 20261110122240.png",
+    "Pasted image 20261110122233.png",
     "post3.md",
     "post4.md",
-    "post5-currency-can-be-a-subsidy.md",
-    "Pasted image 20261106100800.png",
     "post2.md",
     "post4 part 2.md",
-    "Untitled.md",
     "post1.md",
     "file:/home/tristan/house_appeal_203_fox_briar.md",
     "zzz-draft-test.md"
