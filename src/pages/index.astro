@@ -1,12 +1,27 @@
 ---
 import { getSortedPosts } from '../lib/posts';
+import { getSpyReturns } from '../lib/spy-returns';
 import Base from '../layouts/Base.astro';
 
-const posts = await getSortedPosts();
+const [posts, spy] = await Promise.all([getSortedPosts(), getSpyReturns()]);
+const percent = new Intl.NumberFormat('en-US', {
+  style: 'percent', signDisplay: 'exceptZero', minimumFractionDigits: 2, maximumFractionDigits: 2,
+});
+const fetchedOn = new Intl.DateTimeFormat('en-US', {
+  timeZone: 'UTC', dateStyle: 'medium',
+}).format(new Date(`${spy.fetchedOn}T00:00:00Z`));
 ---
 <Base title="VCNTF">
   <section style="padding:48px 0 0;">
     <h1 style="font-size:28px;line-height:1.25;margin:0 0 8px;">VACANT FREQUENCY COMMUNICATION</h1>
+    <div class="spy-returns">
+      <strong>SPY price returns</strong>
+      <dl>
+        <div><dt>1 month</dt><dd>{percent.format(spy.oneMonth / 100)}</dd></div>
+        <div><dt>1 year</dt><dd>{percent.format(spy.oneYear / 100)}</dd></div>
+      </dl>
+      <small><a href="https://site.financialmodelingprep.com/developer/docs/stable/quote-change">FMP</a> · <time datetime={spy.fetchedOn}>{fetchedOn}</time></small>
+    </div>
   </section>
 
   <section style="padding-top:40px;">
@@ -23,3 +38,11 @@ const posts = await getSortedPosts();
     {posts.length === 0 && <p style="color:var(--ink-soft);">No articles yet. Add a .md file in src/content/posts/.</p>}
   </section>
 </Base>
+
+<style>
+  .spy-returns { display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 16px; font-size:14px; }
+  .spy-returns dl { display:flex; flex-wrap:wrap; gap:4px 16px; margin:0; }
+  .spy-returns dl div { display:flex; gap:6px; }
+  .spy-returns dt, .spy-returns small { color:var(--ink-soft); }
+  .spy-returns dd { margin:0; font-variant-numeric:tabular-nums; }
+</style>
