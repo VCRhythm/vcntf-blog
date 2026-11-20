@@ -8,8 +8,6 @@ words: "400"
 ---
 ## The demand for savings
 
-![[Pasted image 20261106100800.png]]
-
 Last week resulted in momentum stocks giving back nearly all of this year's gains. The chart above tracks two baskets since November 2025: value and dividend payers are up 35.8%, momentum just 2.0%. Momentum peaked in June and again in September, the second peak weaker than the first, and the spread has swung back toward value.
 
 AI companies need more and more capital for land, compute, and electricity so they borrow, issue bonds, sign long-term leases, and build assets that may take years to produce revenue. When many large borrowers compete for the same pool of savings, the price of savings rises, and that price is the interest rate. Alphabet's spread over Treasuries widened from 63 to 85 basis points this year, which is investors charging a specific borrower more *compounded* by the whole sector issuing debt at the same time. 
